@@ -6,7 +6,7 @@
 - This directory contains Laravel Backend
 - Inside this directory execute "composer install"
 - Add your db credentials to .env file and execute "php artisan config:cache"
-- After that execute "php artisan db:seed"
+- After that execute "php artisan migrate" and then "php artisan db:seed"
 - In .env file update SANCTUM_STATEFUL_DOMAINS to client domain
 
 
